@@ -1,0 +1,64 @@
+Enter student name: Liam
+
+[Sequential Search]
+ID: 100001  Name: Liam  Korean: 89  English: 16  Math: 66  Total: 171
+ID: 100743  Name: Liam  Korean: 67  English: 50  Math: 8  Total: 125
+ID: 102534  Name: Liam  Korean: 84  English: 54  Math: 78  Total: 216
+ID: 103283  Name: Liam  Korean: 59  English: 61  Math: 90  Total: 210
+ID: 109860  Name: Liam  Korean: 72  English: 83  Math: 62  Total: 217
+Matches: 5
+
+[Binary Search]
+ID: 100743  Name: Liam  Korean: 67  English: 50  Math: 8  Total: 125
+ID: 103283  Name: Liam  Korean: 59  English: 61  Math: 90  Total: 210
+ID: 102534  Name: Liam  Korean: 84  English: 54  Math: 78  Total: 216
+ID: 109860  Name: Liam  Korean: 72  English: 83  Math: 62  Total: 217
+ID: 100001  Name: Liam  Korean: 89  English: 16  Math: 66  Total: 171
+Matches: 5
+
+Students: 32033
+Quick Sort comparisons: 605388
+
+K       Sequential      Quick + Binary
+1       32033   605409
+2       64066   605429
+3       96099   605452
+4       128132  605473
+5       160165  605488
+6       192198  605509
+7       224231  605530
+8       256264  605552
+9       288297  605574
+10      320330  605589
+11      352363  605610
+12      384396  605630
+13      416429  605651
+14      448462  605673
+15      480495  605688
+16      512528  605708
+17      544561  605732
+18      576594  605752
+19      608627  605773
+20      640660  605788
+21      672693  605808
+22      704726  605829
+23      736759  605850
+24      768792  605871
+25      800825  605886
+26      832858  605908
+27      864891  605929
+28      896924  605950
+29      928957  605971
+30      960990  605986
+50      1601650 606384
+100     3203300 607370
+200     6406600 609326
+300     9609900 611284
+400     12813200        613241
+500     16016500        615185
+600     19219800        617141
+700     22423100        619077
+800     25626400        621075
+900     28829700        623035
+1000    32033000        624994
+First winning K: 19
